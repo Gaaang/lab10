@@ -92,13 +92,27 @@ void draw_primitive()
 
 void my_display()
 {
+	/*
+	очищает указанные буферы.
+	GL_COLOR_BUFFER_BIT	Очистка буфера цвета
+	GL_DEPTH_BUFFER_BIT	Очистка буфера глубины.
+
+	*/
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	//считывает текущую матрицу.
 	glLoadIdentity();
+	//glRotatef(Angle,Xtrue,Ytrue,Ztrue) отвечает за вращения объекта вдоль оси.
 	glRotatef(rotate_x, 1.0, 0.0, 0.0);
 	glRotatef(rotate_y, 0.0, 1.0, 0.0);
 	glRotatef(rotate_z, 0.0, 0.0, 1.0);
 	draw_primitive();
+	//так надо
 	glFlush();
+	/*
+	сменить экранные буфера при помощи glutSwapBuffers (), ведь у нас включена двойная буферизация. 
+	Все рисуется на скрытом от пользователя буфере и затем происходит смена буферов. 
+	Делается это для получения плавной анимации и для того, чтобы не было эффекта мерцания экрана.
+	*/
 	glutSwapBuffers();
 }
 
@@ -116,7 +130,7 @@ void specialKeys(int key, int x, int y) {
 
 void Mouse(int button, int state, int x, int y)
 {
-	if (state == GLUT_DOWN)
+	if (state == GLUT_DOWN)//момента нажатия
 	{
 		++num;
 		rotate_x = rotate_y = rotate_z = 0;
@@ -134,19 +148,41 @@ int main(int argc, char** argv)
 {
 	srand(time(0));
 	// initialize glut    
+	/*
+	* int argc - количество аргументов
+	* char** argv - их описание в виде указателя на строку
+	*/
 	glutInit(&argc, argv);
 	glutInitWindowPosition(100, 100);
 	glutInitWindowSize(800, 600);
+	/*
+	режим отображения
+	GLUT_DOUBLE - режим двойной буферизации, - РЕЖИМ, ПОДХОДЯЩИЙ ДЛЯ АНИМАЦИИ
+	GLUT_RGB констант для определения цвета модели
+	GLUT_DEPTH -буфер глубины.
+	*/
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
 	// create window with window text    
 	glutCreateWindow("OpenGL");
 
-	//glutIdleFunc(my_idle);   
+	//glutIdleFunc(my_idle);  
+	/*
+	функцию, которая принимает в качестве параметра имя функции для использования при необходимости перерисовки.
+	*/
 	glutDisplayFunc(my_display);
+	/*
+	функцию для специальных нажатий клавиш.
+	*/
 	glutSpecialFunc(specialKeys);
 	//glutReshapeFunc(reshape);
+	/*
+	функцию, которая будет отвечать за обработку событий, создаваемых щелчками клавиш мыши
+	*/
 	glutMouseFunc(Mouse);
 	//init(); 
+	/*
+	Пропись главного цикла программы. Бесконечный цикл, отрабатывающий все функции событий, зарегестрированные программистом.
+	*/
 	glutMainLoop();
 	return 0;
 }
