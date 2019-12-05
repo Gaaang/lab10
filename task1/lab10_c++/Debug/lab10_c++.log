@@ -1,0 +1,9 @@
+﻿  task1.cpp
+C:\Users\andre\Desktop\lab10\task1\lab10_c++\task1.cpp(18,20): warning C4305:  инициализация: усечение из "double" в "float"
+C:\Users\andre\Desktop\lab10\task1\lab10_c++\task1.cpp(18,35): warning C4305:  инициализация: усечение из "double" в "float"
+C:\Users\andre\Desktop\lab10\task1\lab10_c++\task1.cpp(18,50): warning C4305:  инициализация: усечение из "double" в "float"
+C:\Users\andre\Desktop\lab10\task1\lab10_c++\task1.cpp(97,12): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task1\lab10_c++\task1.cpp(98,12): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task1\lab10_c++\task1.cpp(99,12): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task1\lab10_c++\task1.cpp(135,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab10_c++.vcxproj -> C:\Users\andre\Desktop\lab10\task1\Debug\lab10_c++.exe

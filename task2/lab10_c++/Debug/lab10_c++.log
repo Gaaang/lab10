@@ -1,0 +1,23 @@
+﻿  task2.cpp
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(59,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(60,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(61,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(69,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(70,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(71,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(74,25): warning C4305:  аргумент: усечение из "double" в "GLfloat"
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(87,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(88,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(89,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(95,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(96,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(97,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(109,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(110,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(111,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(114,30): warning C4305:  аргумент: усечение из "double" в "GLfloat"
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(117,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(118,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(119,13): warning C4244:  аргумент: преобразование "double" в "GLfloat", возможна потеря данных
+C:\Users\andre\Desktop\lab10\task2\lab10_c++\task2.cpp(121,25): warning C4305:  аргумент: усечение из "double" в "GLfloat"
+  lab10_c++.vcxproj -> C:\Users\andre\Desktop\lab10\task2\Debug\lab10_c++.exe
